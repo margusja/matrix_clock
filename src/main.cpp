@@ -6,7 +6,7 @@
 
 // Replace with your network credentials
 const char* ssid     = "varmar";
-const char* password = "AvadaKedavara112";
+const char* password = "xxxxx";
 
 // Set web server port number to 80
 WiFiServer server(80);

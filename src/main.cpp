@@ -1,12 +1,10 @@
 // Load Wi-Fi library
 #include <ESP8266WiFi.h>
 #include <EEPROM.h>
-#include "LedControl.h"
+#include "LedControl.h" 
 #include <time.h>
 
-// Replace with your network credentials
-const char* ssid     = "varmar";
-const char* password = "xxxxx";
+#include <Foo.h> // My Wifi credentials
 
 // Set web server port number to 80
 WiFiServer server(80);
